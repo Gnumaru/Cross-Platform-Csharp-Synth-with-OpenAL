@@ -23,7 +23,7 @@ https://github.com/opentk/opentk
 
 which is a dotnet wrapper around OpenAL, OpenGL and OpenCL.
 
-The demo app still needs NAudio.dll for some things, but the audio is played OpenAL and thus it works as expected on linux and mac.
+The demo app still needs NAudio.dll for some things, but the audio is played with OpenAL and thus it works as expected on linux and mac.
 
 The Adaptation is in it's earliest stage, but it is already able to play midi files.
 

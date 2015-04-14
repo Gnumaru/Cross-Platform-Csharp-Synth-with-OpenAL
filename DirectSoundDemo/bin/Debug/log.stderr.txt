@@ -1,0 +1,17 @@
+
+Unhandled Exception:
+System.ArgumentException: A null reference or invalid value was found [GDI+ status: InvalidParameter]
+  at System.Drawing.GDIPlus.CheckStatus (Status status) [0x00000] in <filename unknown>:0 
+  at System.Drawing.Graphics.GdipMeasureString (IntPtr graphics, System.String text, System.Drawing.Font font, System.Drawing.RectangleF& layoutRect, IntPtr stringFormat) [0x00000] in <filename unknown>:0 
+  at System.Drawing.Graphics.MeasureString (System.String text, System.Drawing.Font font, Int32 width, System.Drawing.StringFormat format) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Drawing.Graphics:MeasureString (string,System.Drawing.Font,int,System.Drawing.StringFormat)
+  at System.Windows.Forms.TextRenderer.MeasureTextInternal (IDeviceContext dc, System.String text, System.Drawing.Font font, Size proposedSize, TextFormatFlags flags, Boolean useMeasureString) [0x00000] in <filename unknown>:0 
+  at System.Windows.Forms.TextRenderer.MeasureText (System.String text, System.Drawing.Font font, Size proposedSize, TextFormatFlags flags) [0x00000] in <filename unknown>:0 
+  at System.Windows.Forms.ToolStripItem.OnParentChanged (System.Windows.Forms.ToolStrip oldParent, System.Windows.Forms.ToolStrip newParent) [0x00000] in <filename unknown>:0 
+  at System.Windows.Forms.ToolStripItem.set_Parent (System.Windows.Forms.ToolStrip value) [0x00000] in <filename unknown>:0 
+  at (wrapper remoting-invoke-with-check) System.Windows.Forms.ToolStripItem:set_Parent (System.Windows.Forms.ToolStrip)
+  at System.Windows.Forms.ToolStripItemCollection.Remove (System.Windows.Forms.ToolStripItem value) [0x00000] in <filename unknown>:0 
+  at System.Windows.Forms.ToolStripItem.Dispose (Boolean disposing) [0x00000] in <filename unknown>:0 
+  at System.Windows.Forms.ToolStripDropDownItem.Dispose (Boolean disposing) [0x00000] in <filename unknown>:0 
+  at System.Windows.Forms.ToolStripMenuItem.Dispose (Boolean disposing) [0x00000] in <filename unknown>:0 
+  at System.ComponentModel.Component.Finalize () [0x00000] in <filename unknown>:0 

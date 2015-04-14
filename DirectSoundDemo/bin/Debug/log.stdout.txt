@@ -1,0 +1,1249 @@
+Mono: Assembly Loader probing location: '/usr/lib/mono/4.5/mscorlib.dll'.
+Mono: Image addref mscorlib[0x10084c0] -> /usr/lib/mono/4.5/mscorlib.dll[0x10075f0]: 2
+Mono: AOT module '/usr/lib/mono/4.5/mscorlib.dll.so' not found: /usr/lib/mono/4.5/mscorlib.dll.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado
+
+Mono: Assembly Loader loaded assembly from location: '/usr/lib/mono/4.5/mscorlib.dll'.
+Mono: Config attempting to parse: '/usr/lib/mono/4.5/mscorlib.dll.config'.
+Mono: Config attempting to parse: '/etc/mono/assemblies/mscorlib/mscorlib.config'.
+Mono: GC_MAJOR: (mature allocation failure) pause 0,38ms, total 0,38ms, bridge 0,00ms major 320K/128K los 0K/0K
+Mono: Assembly mscorlib[0x10084c0] added to domain DirectSoundDemo.exe, ref_count=1
+Mono: Config attempting to parse: '/etc/mono/config'.
+Mono: Config attempting to parse: '/home/lucas/.mono/config'.
+Mono: Assembly Loader probing location: 'DirectSoundDemo.exe'.
+Mono: Image addref DirectSoundDemo[0x10744d0] -> /media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/DirectSoundDemo.exe[0x1073900]: 2
+Mono: Assembly DirectSoundDemo[0x10744d0] added to domain DirectSoundDemo.exe, ref_count=1
+Mono: AOT module '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/DirectSoundDemo.exe.so' not found: /media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/DirectSoundDemo.exe.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado
+
+Mono: Assembly Loader loaded assembly from location: 'DirectSoundDemo.exe'.
+Mono: Config attempting to parse: '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/DirectSoundDemo.exe.config'.
+Mono: Config attempting to parse: '/etc/mono/assemblies/DirectSoundDemo/DirectSoundDemo.config'.
+Mono: Assembly Loader probing location: 'DirectSoundDemo.exe'.
+Mono: AOT module '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/DirectSoundDemo.exe.so' not found: /media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/DirectSoundDemo.exe.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado
+
+Mono: Assembly Ref addref DirectSoundDemo[0x10744d0] -> mscorlib[0x10084c0]: 2
+Mono: Config attempting to parse: '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/DirectSoundDemo.exe.config'.
+Mono: Assembly Loader probing location: '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/System.Windows.Forms.dll'.
+Mono: Image addref System.Windows.Forms[0x107bc70] -> /usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/System.Windows.Forms.dll[0x107b1d0]: 2
+Mono: Assembly System.Windows.Forms[0x107bc70] added to domain DirectSoundDemo.exe, ref_count=1
+Mono: AOT module '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/System.Windows.Forms.dll.so' not found: /usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/System.Windows.Forms.dll.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado
+
+Mono: Assembly Loader loaded assembly from location: '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/System.Windows.Forms.dll'.
+Mono: Config attempting to parse: '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/System.Windows.Forms.dll.config'.
+Mono: Config attempting to parse: '/etc/mono/assemblies/System.Windows.Forms/System.Windows.Forms.config'.
+Mono: Assembly Ref addref DirectSoundDemo[0x10744d0] -> System.Windows.Forms[0x107bc70]: 2
+Mono: Assembly Ref addref System.Windows.Forms[0x107bc70] -> mscorlib[0x10084c0]: 3
+Mono: Assembly Loader probing location: '/usr/lib/mono/gac/System/4.0.0.0__b77a5c561934e089/System.dll'.
+Mono: Image addref System[0x108b9c0] -> /usr/lib/mono/gac/System/4.0.0.0__b77a5c561934e089/System.dll[0x108a9f0]: 2
+Mono: Assembly System[0x108b9c0] added to domain DirectSoundDemo.exe, ref_count=1
+Mono: AOT module '/usr/lib/mono/gac/System/4.0.0.0__b77a5c561934e089/System.dll.so' not found: /usr/lib/mono/gac/System/4.0.0.0__b77a5c561934e089/System.dll.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado
+
+Mono: Assembly Loader loaded assembly from location: '/usr/lib/mono/gac/System/4.0.0.0__b77a5c561934e089/System.dll'.
+Mono: Config attempting to parse: '/usr/lib/mono/gac/System/4.0.0.0__b77a5c561934e089/System.dll.config'.
+Mono: Config attempting to parse: '/etc/mono/assemblies/System/System.config'.
+Mono: Assembly Ref addref System.Windows.Forms[0x107bc70] -> System[0x108b9c0]: 2
+Mono: Assembly Ref addref System[0x108b9c0] -> mscorlib[0x10084c0]: 4
+Mono: Assembly Loader probing location: '/usr/lib/mono/gac/System.Drawing/4.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll'.
+Mono: Image addref System.Drawing[0x109e5b0] -> /usr/lib/mono/gac/System.Drawing/4.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll[0x109d8b0]: 2
+Mono: Assembly System.Drawing[0x109e5b0] added to domain DirectSoundDemo.exe, ref_count=1
+Mono: AOT module '/usr/lib/mono/gac/System.Drawing/4.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll.so' not found: /usr/lib/mono/gac/System.Drawing/4.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado
+
+Mono: Assembly Loader loaded assembly from location: '/usr/lib/mono/gac/System.Drawing/4.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll'.
+Mono: Config attempting to parse: '/usr/lib/mono/gac/System.Drawing/4.0.0.0__b03f5f7f11d50a3a/System.Drawing.dll.config'.
+Mono: Config attempting to parse: '/etc/mono/assemblies/System.Drawing/System.Drawing.config'.
+Mono: Assembly Ref addref System.Windows.Forms[0x107bc70] -> System.Drawing[0x109e5b0]: 2
+Mono: Assembly Ref addref System.Drawing[0x109e5b0] -> mscorlib[0x10084c0]: 5
+Mono: Assembly Loader probing location: '/usr/lib/mono/gac/Accessibility/4.0.0.0__b03f5f7f11d50a3a/Accessibility.dll'.
+Mono: Image addref Accessibility[0x10a44e0] -> /usr/lib/mono/gac/Accessibility/4.0.0.0__b03f5f7f11d50a3a/Accessibility.dll[0x10a3720]: 2
+Mono: Assembly Accessibility[0x10a44e0] added to domain DirectSoundDemo.exe, ref_count=1
+Mono: AOT module '/usr/lib/mono/gac/Accessibility/4.0.0.0__b03f5f7f11d50a3a/Accessibility.dll.so' not found: /usr/lib/mono/gac/Accessibility/4.0.0.0__b03f5f7f11d50a3a/Accessibility.dll.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado
+
+Mono: Assembly Loader loaded assembly from location: '/usr/lib/mono/gac/Accessibility/4.0.0.0__b03f5f7f11d50a3a/Accessibility.dll'.
+Mono: Config attempting to parse: '/usr/lib/mono/gac/Accessibility/4.0.0.0__b03f5f7f11d50a3a/Accessibility.dll.config'.
+Mono: Config attempting to parse: '/etc/mono/assemblies/Accessibility/Accessibility.config'.
+Mono: Assembly Ref addref System.Windows.Forms[0x107bc70] -> Accessibility[0x10a44e0]: 2
+Mono: Assembly Ref addref DirectSoundDemo[0x10744d0] -> System[0x108b9c0]: 3
+Mono: Assembly Loader probing location: '/usr/lib/mono/gac/UIAutomationWinforms/1.0.0.0__f4ceacb585d99812/UIAutomationWinforms.dll'.
+Mono: Assembly Loader probing location: '/usr/lib/UIAutomationWinforms.dll'.
+Mono: Assembly Loader probing location: '/usr/lib/mono/4.5/Facades/UIAutomationWinforms.dll'.
+Mono: Assembly Loader probing location: '/usr/lib/mono/gac/UIAutomationWinforms/1.0.0.0__f4ceacb585d99812/UIAutomationWinforms.exe'.
+Mono: Assembly Loader probing location: '/usr/lib/UIAutomationWinforms.exe'.
+Mono: Assembly Loader probing location: '/usr/lib/mono/4.5/Facades/UIAutomationWinforms.exe'.
+[0x7fde582fa7c0:] EXCEPTION handling: System.IO.FileNotFoundException: Could not load file or assembly 'UIAutomationWinforms, Version=1.0.0.0, Culture=neutral, PublicKeyToken=f4ceacb585d99812' or one of its dependencies. The system cannot find the file specified.
+
+"<unnamed thread>" tid=0x0x7fde582fa7c0 this=0x0x7fde54d00010 thread handle 0x403 state : not waiting owns ()
+  at System.AppDomain.Load (string,System.Security.Policy.Evidence,bool) <0x000af>
+  at System.AppDomain.Load (string) <0x0001f>
+  at (wrapper remoting-invoke-with-check) System.AppDomain.Load (string) <0xffffffff>
+  at System.Reflection.Assembly.Load (string) <0x0001f>
+  at System.Windows.Forms.Application.InitializeUIAutomation () <0x00043>
+  at System.Windows.Forms.Application..cctor () <0x00177>
+  at (wrapper runtime-invoke) object.runtime_invoke_void (object,intptr,intptr,intptr) <0xffffffff>
+  at <unknown> <0xffffffff>
+  at DirectSoundDemo.Program.Main () <0x0000b>
+  at (wrapper runtime-invoke) object.runtime_invoke_void (object,intptr,intptr,intptr) <0xffffffff>
+
+Mono: Assembly Loader probing location: '/usr/lib/mono/gac/Mono.Posix/4.0.0.0__0738eb9f132ed756/Mono.Posix.dll'.
+Mono: Image addref Mono.Posix[0x10f3e90] -> /usr/lib/mono/gac/Mono.Posix/4.0.0.0__0738eb9f132ed756/Mono.Posix.dll[0x10f3140]: 2
+Mono: Assembly Mono.Posix[0x10f3e90] added to domain DirectSoundDemo.exe, ref_count=1
+Mono: AOT module '/usr/lib/mono/gac/Mono.Posix/4.0.0.0__0738eb9f132ed756/Mono.Posix.dll.so' not found: /usr/lib/mono/gac/Mono.Posix/4.0.0.0__0738eb9f132ed756/Mono.Posix.dll.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado
+
+Mono: Assembly Loader loaded assembly from location: '/usr/lib/mono/gac/Mono.Posix/4.0.0.0__0738eb9f132ed756/Mono.Posix.dll'.
+Mono: Config attempting to parse: '/usr/lib/mono/gac/Mono.Posix/4.0.0.0__0738eb9f132ed756/Mono.Posix.dll.config'.
+Mono: Config attempting to parse: '/etc/mono/assemblies/Mono.Posix/Mono.Posix.config'.
+Mono: Assembly Ref addref System.Windows.Forms[0x107bc70] -> Mono.Posix[0x10f3e90]: 2
+Mono: Assembly Ref addref Mono.Posix[0x10f3e90] -> mscorlib[0x10084c0]: 6
+Mono: DllImport attempting to load: 'libc.so.6'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libc.so.6': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libc.so.6: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libc.so.6.so': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libc.so.6.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport loaded library 'libc.so.6'.
+Mono: DllImport searching in: 'libc.so.6' ('libc.so.6').
+Mono: Searching for 'uname'.
+Mono: Probing 'uname'.
+Mono: Found as 'uname'.
+Mono: DllImport attempting to load: 'libX11.so.6'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libX11.so.6': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libX11.so.6: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libX11.so.6.so': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libX11.so.6.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport loaded library 'libX11.so.6'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XInitThreads'.
+Mono: Probing 'XInitThreads'.
+Mono: Found as 'XInitThreads'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XOpenDisplay'.
+Mono: Probing 'XOpenDisplay'.
+Mono: Found as 'XOpenDisplay'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XkbSetDetectableAutoRepeat'.
+Mono: Probing 'XkbSetDetectableAutoRepeat'.
+Mono: Found as 'XkbSetDetectableAutoRepeat'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XSetErrorHandler'.
+Mono: Probing 'XSetErrorHandler'.
+Mono: Found as 'XSetErrorHandler'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XDestroyWindow'.
+Mono: Probing 'XDestroyWindow'.
+Mono: Found as 'XDestroyWindow'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XCloseDisplay'.
+Mono: Probing 'XCloseDisplay'.
+Mono: Found as 'XCloseDisplay'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XQueryExtension'.
+Mono: Probing 'XQueryExtension'.
+Mono: Found as 'XQueryExtension'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XSynchronize'.
+Mono: Probing 'XSynchronize'.
+Mono: Found as 'XSynchronize'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XDefaultScreen'.
+Mono: Probing 'XDefaultScreen'.
+Mono: Found as 'XDefaultScreen'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XRootWindow'.
+Mono: Probing 'XRootWindow'.
+Mono: Found as 'XRootWindow'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XDefaultColormap'.
+Mono: Probing 'XDefaultColormap'.
+Mono: Found as 'XDefaultColormap'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XCreateSimpleWindow'.
+Mono: Probing 'XCreateSimpleWindow'.
+Mono: Found as 'XCreateSimpleWindow'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XConnectionNumber'.
+Mono: Probing 'XConnectionNumber'.
+Mono: Found as 'XConnectionNumber'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XSelectInput'.
+Mono: Probing 'XSelectInput'.
+Mono: Found as 'XSelectInput'.
+Mono: DllImport attempting to load: 'libc.so.6'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Drawing/4.0.0.0__b03f5f7f11d50a3a/libc.so.6': '/usr/lib/mono/gac/System.Drawing/4.0.0.0__b03f5f7f11d50a3a/libc.so.6: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Drawing/4.0.0.0__b03f5f7f11d50a3a/libc.so.6.so': '/usr/lib/mono/gac/System.Drawing/4.0.0.0__b03f5f7f11d50a3a/libc.so.6.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport loaded library 'libc.so.6'.
+Mono: DllImport searching in: 'libc.so.6' ('libc.so.6').
+Mono: Searching for 'uname'.
+Mono: Probing 'uname'.
+Mono: Found as 'uname'.
+Mono: DllImport attempting to load: 'libgdiplus.so.0'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Drawing/4.0.0.0__b03f5f7f11d50a3a/libgdiplus.so.0': '/usr/lib/mono/gac/System.Drawing/4.0.0.0__b03f5f7f11d50a3a/libgdiplus.so.0: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Drawing/4.0.0.0__b03f5f7f11d50a3a/libgdiplus.so.0.so': '/usr/lib/mono/gac/System.Drawing/4.0.0.0__b03f5f7f11d50a3a/libgdiplus.so.0.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport loaded library 'libgdiplus.so.0'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdiplusStartup'.
+Mono: Probing 'GdiplusStartup'.
+Mono: Found as 'GdiplusStartup'.
+Mono: Assembly Loader probing location: '/usr/lib/mono/gac/System.Configuration/4.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll'.
+Mono: Image addref System.Configuration[0x11741a0] -> /usr/lib/mono/gac/System.Configuration/4.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll[0x1170f90]: 2
+Mono: Assembly System.Configuration[0x11741a0] added to domain DirectSoundDemo.exe, ref_count=1
+Mono: AOT module '/usr/lib/mono/gac/System.Configuration/4.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll.so' not found: /usr/lib/mono/gac/System.Configuration/4.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado
+
+Mono: Assembly Loader loaded assembly from location: '/usr/lib/mono/gac/System.Configuration/4.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll'.
+Mono: Config attempting to parse: '/usr/lib/mono/gac/System.Configuration/4.0.0.0__b03f5f7f11d50a3a/System.Configuration.dll.config'.
+Mono: Config attempting to parse: '/etc/mono/assemblies/System.Configuration/System.Configuration.config'.
+Mono: Assembly Ref addref System[0x108b9c0] -> System.Configuration[0x11741a0]: 2
+Mono: Assembly Ref addref System.Configuration[0x11741a0] -> mscorlib[0x10084c0]: 7
+Mono: Assembly Ref addref System.Configuration[0x11741a0] -> System[0x108b9c0]: 4
+Mono: Assembly Loader probing location: '/usr/lib/mono/gac/System.Xml/4.0.0.0__b77a5c561934e089/System.Xml.dll'.
+Mono: Image addref System.Xml[0x11baeb0] -> /usr/lib/mono/gac/System.Xml/4.0.0.0__b77a5c561934e089/System.Xml.dll[0x11ba080]: 2
+Mono: Assembly System.Xml[0x11baeb0] added to domain DirectSoundDemo.exe, ref_count=1
+Mono: AOT module '/usr/lib/mono/gac/System.Xml/4.0.0.0__b77a5c561934e089/System.Xml.dll.so' not found: /usr/lib/mono/gac/System.Xml/4.0.0.0__b77a5c561934e089/System.Xml.dll.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado
+
+Mono: Assembly Loader loaded assembly from location: '/usr/lib/mono/gac/System.Xml/4.0.0.0__b77a5c561934e089/System.Xml.dll'.
+Mono: Config attempting to parse: '/usr/lib/mono/gac/System.Xml/4.0.0.0__b77a5c561934e089/System.Xml.dll.config'.
+Mono: Config attempting to parse: '/etc/mono/assemblies/System.Xml/System.Xml.config'.
+Mono: Assembly Ref addref System.Configuration[0x11741a0] -> System.Xml[0x11baeb0]: 2
+Mono: Assembly Ref addref System.Xml[0x11baeb0] -> mscorlib[0x10084c0]: 8
+Mono: Assembly Ref addref System.Xml[0x11baeb0] -> System[0x108b9c0]: 5
+Mono: Assembly Ref addref System[0x108b9c0] -> System.Xml[0x11baeb0]: 3
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XDisplayKeycodes'.
+Mono: Probing 'XDisplayKeycodes'.
+Mono: Found as 'XDisplayKeycodes'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XGetKeyboardMapping'.
+Mono: Probing 'XGetKeyboardMapping'.
+Mono: Found as 'XGetKeyboardMapping'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XFree'.
+Mono: Probing 'XFree'.
+Mono: Found as 'XFree'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XGetModifierMapping'.
+Mono: Probing 'XGetModifierMapping'.
+Mono: Found as 'XGetModifierMapping'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XKeycodeToKeysym'.
+Mono: Probing 'XKeycodeToKeysym'.
+Mono: Found as 'XKeycodeToKeysym'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XFreeModifiermap'.
+Mono: Probing 'XFreeModifiermap'.
+Mono: Found as 'XFreeModifiermap'.
+Mono: Assembly Loader probing location: '/usr/lib/mono/gac/System.Windows.Forms.resources/4.0.0.0_pt-br_b77a5c561934e089/System.Windows.Forms.resources.dll'.
+Mono: Assembly Loader probing location: '/usr/lib/System.Windows.Forms.resources.dll'.
+Mono: Assembly Loader probing location: '/usr/lib/mono/4.5/Facades/System.Windows.Forms.resources.dll'.
+Mono: Assembly Loader probing location: '/usr/lib/mono/gac/System.Windows.Forms.resources/4.0.0.0_pt-br_b77a5c561934e089/System.Windows.Forms.resources.exe'.
+Mono: Assembly Loader probing location: '/usr/lib/System.Windows.Forms.resources.exe'.
+Mono: Assembly Loader probing location: '/usr/lib/mono/4.5/Facades/System.Windows.Forms.resources.exe'.
+Mono: Assembly Loader probing location: '/usr/lib/mono/gac/System.Windows.Forms.resources/4.0.0.0_pt_b77a5c561934e089/System.Windows.Forms.resources.dll'.
+Mono: Assembly Loader probing location: '/usr/lib/System.Windows.Forms.resources.dll'.
+Mono: Assembly Loader probing location: '/usr/lib/mono/4.5/Facades/System.Windows.Forms.resources.dll'.
+Mono: Assembly Loader probing location: '/usr/lib/mono/gac/System.Windows.Forms.resources/4.0.0.0_pt_b77a5c561934e089/System.Windows.Forms.resources.exe'.
+Mono: Assembly Loader probing location: '/usr/lib/System.Windows.Forms.resources.exe'.
+Mono: Assembly Loader probing location: '/usr/lib/mono/4.5/Facades/System.Windows.Forms.resources.exe'.
+Mono: The request to load the assembly mscorlib v1.0.5000.0 was remapped to v4.0.0.0
+Mono: The request to load the assembly System.Windows.Forms v1.0.5000.0 was remapped to v4.0.0.0
+Mono: The request to load the assembly System.Windows.Forms v1.0.5000.0 was remapped to v4.0.0.0
+Mono: The request to load the assembly System.Windows.Forms v1.0.5000.0 was remapped to v4.0.0.0
+Mono: The request to load the assembly System.Windows.Forms v1.0.5000.0 was remapped to v4.0.0.0
+Mono: The request to load the assembly System.Windows.Forms v1.0.5000.0 was remapped to v4.0.0.0
+Mono: The request to load the assembly System.Windows.Forms v1.0.5000.0 was remapped to v4.0.0.0
+Mono: The request to load the assembly System.Windows.Forms v1.0.5000.0 was remapped to v4.0.0.0
+Mono: The request to load the assembly mscorlib v1.0.5000.0 was remapped to v4.0.0.0
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'Xutf8LookupString'.
+Mono: Probing 'Xutf8LookupString'.
+Mono: Found as 'Xutf8LookupString'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XLookupString'.
+Mono: Probing 'XLookupString'.
+Mono: Found as 'XLookupString'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XSupportsLocale'.
+Mono: Probing 'XSupportsLocale'.
+Mono: Found as 'XSupportsLocale'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XSetLocaleModifiers'.
+Mono: Probing 'XSetLocaleModifiers'.
+Mono: Found as 'XSetLocaleModifiers'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XOpenIM'.
+Mono: Probing 'XOpenIM'.
+Mono: Found as 'XOpenIM'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XInternAtom'.
+Mono: Probing 'XInternAtom'.
+Mono: Found as 'XInternAtom'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XInternAtoms'.
+Mono: Probing 'XInternAtoms'.
+Mono: Found as 'XInternAtoms'.
+Mono: DllImport attempting to load: 'libgtk-x11-2.0.so.0'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgtk-x11-2.0.so.0': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgtk-x11-2.0.so.0: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgtk-x11-2.0.so.0.so': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgtk-x11-2.0.so.0.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport loaded library 'libgtk-x11-2.0.so.0'.
+Mono: DllImport searching in: 'libgtk-x11-2.0.so.0' ('libgtk-x11-2.0.so.0').
+Mono: Searching for 'gtk_invisible_new'.
+Mono: Probing 'gtk_invisible_new'.
+Mono: Found as 'gtk_invisible_new'.
+Mono: DllImport searching in: 'libgtk-x11-2.0.so.0' ('libgtk-x11-2.0.so.0').
+Mono: Searching for 'gtk_widget_ensure_style'.
+Mono: Probing 'gtk_widget_ensure_style'.
+Mono: Found as 'gtk_widget_ensure_style'.
+Mono: DllImport searching in: 'libgtk-x11-2.0.so.0' ('libgtk-x11-2.0.so.0').
+Mono: Searching for 'gtk_widget_get_style'.
+Mono: Probing 'gtk_widget_get_style'.
+Mono: Found as 'gtk_widget_get_style'.
+Mono: DllImport searching in: 'libgtk-x11-2.0.so.0' ('libgtk-x11-2.0.so.0').
+Mono: Searching for 'gtk_menu_new'.
+Mono: Probing 'gtk_menu_new'.
+Mono: Found as 'gtk_menu_new'.
+Mono: DllImport searching in: 'libgtk-x11-2.0.so.0' ('libgtk-x11-2.0.so.0').
+Mono: Searching for 'gtk_init_check'.
+Mono: Probing 'gtk_init_check'.
+Mono: Found as 'gtk_init_check'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipCreateStringFormat'.
+Mono: Probing 'GdipCreateStringFormat'.
+Mono: Found as 'GdipCreateStringFormat'.
+Mono: Assembly Ref addref System.Drawing[0x109e5b0] -> System[0x108b9c0]: 6
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipSetStringFormatLineAlign'.
+Mono: Probing 'GdipSetStringFormatLineAlign'.
+Mono: Found as 'GdipSetStringFormatLineAlign'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipSetStringFormatAlign'.
+Mono: Probing 'GdipSetStringFormatAlign'.
+Mono: Found as 'GdipSetStringFormatAlign'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipSetStringFormatHotkeyPrefix'.
+Mono: Probing 'GdipSetStringFormatHotkeyPrefix'.
+Mono: Found as 'GdipSetStringFormatHotkeyPrefix'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipSetStringFormatTabStops'.
+Mono: Probing 'GdipSetStringFormatTabStops'.
+Mono: Found as 'GdipSetStringFormatTabStops'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipGetStringFormatFlags'.
+Mono: Probing 'GdipGetStringFormatFlags'.
+Mono: Found as 'GdipGetStringFormatFlags'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipSetStringFormatFlags'.
+Mono: Probing 'GdipSetStringFormatFlags'.
+Mono: Found as 'GdipSetStringFormatFlags'.
+Mono: Assembly Loader probing location: '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/SynthControls.dll'.
+Mono: Image addref SynthControls[0x148b7a0] -> /media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/SynthControls.dll[0x148a810]: 2
+Mono: Assembly SynthControls[0x148b7a0] added to domain DirectSoundDemo.exe, ref_count=1
+Mono: AOT module '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/SynthControls.dll.so' not found: /media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/SynthControls.dll.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado
+
+Mono: Assembly Loader loaded assembly from location: '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/SynthControls.dll'.
+Mono: Config attempting to parse: '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/SynthControls.dll.config'.
+Mono: Config attempting to parse: '/etc/mono/assemblies/SynthControls/SynthControls.config'.
+Mono: Assembly Ref addref DirectSoundDemo[0x10744d0] -> SynthControls[0x148b7a0]: 2
+Mono: Assembly Ref addref SynthControls[0x148b7a0] -> System.Windows.Forms[0x107bc70]: 3
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XCreateWindow'.
+Mono: Probing 'XCreateWindow'.
+Mono: Found as 'XCreateWindow'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XSetWMNormalHints'.
+Mono: Probing 'XSetWMNormalHints'.
+Mono: Found as 'XSetWMNormalHints'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XSetWMHints'.
+Mono: Probing 'XSetWMHints'.
+Mono: Found as 'XSetWMHints'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XChangeProperty'.
+Mono: Probing 'XChangeProperty'.
+Mono: Found as 'XChangeProperty'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XChangeProperty'.
+Mono: Probing 'XChangeProperty'.
+Mono: Found as 'XChangeProperty'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XSetTransientForHint'.
+Mono: Probing 'XSetTransientForHint'.
+Mono: Found as 'XSetTransientForHint'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XSetWMProtocols'.
+Mono: Probing 'XSetWMProtocols'.
+Mono: Found as 'XSetWMProtocols'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XGetWMNormalHints'.
+Mono: Probing 'XGetWMNormalHints'.
+Mono: Found as 'XGetWMNormalHints'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XSetZoomHints'.
+Mono: Probing 'XSetZoomHints'.
+Mono: Found as 'XSetZoomHints'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XGetWindowProperty'.
+Mono: Probing 'XGetWindowProperty'.
+Mono: Found as 'XGetWindowProperty'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XGetWindowAttributes'.
+Mono: Probing 'XGetWindowAttributes'.
+Mono: Found as 'XGetWindowAttributes'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XMoveResizeWindow'.
+Mono: Probing 'XMoveResizeWindow'.
+Mono: Found as 'XMoveResizeWindow'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XTranslateCoordinates'.
+Mono: Probing 'XTranslateCoordinates'.
+Mono: Found as 'XTranslateCoordinates'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XVaCreateNestedList'.
+Mono: Probing 'XVaCreateNestedList'.
+Mono: Found as 'XVaCreateNestedList'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XSetICValues'.
+Mono: Probing 'XSetICValues'.
+Mono: Found as 'XSetICValues'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XChangeProperty'.
+Mono: Probing 'XChangeProperty'.
+Mono: Found as 'XChangeProperty'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XStoreName'.
+Mono: Probing 'XStoreName'.
+Mono: Found as 'XStoreName'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XMapRaised'.
+Mono: Probing 'XMapRaised'.
+Mono: Found as 'XMapRaised'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XMapWindow'.
+Mono: Probing 'XMapWindow'.
+Mono: Found as 'XMapWindow'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XCreateFontCursor'.
+Mono: Probing 'XCreateFontCursor'.
+Mono: Found as 'XCreateFontCursor'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipCreateBitmapFromScan0'.
+Mono: Probing 'GdipCreateBitmapFromScan0'.
+Mono: Found as 'GdipCreateBitmapFromScan0'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipGetImagePaletteSize'.
+Mono: Probing 'GdipGetImagePaletteSize'.
+Mono: Found as 'GdipGetImagePaletteSize'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipGetImagePalette'.
+Mono: Probing 'GdipGetImagePalette'.
+Mono: Found as 'GdipGetImagePalette'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipSetImagePalette'.
+Mono: Probing 'GdipSetImagePalette'.
+Mono: Found as 'GdipSetImagePalette'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipGetImageWidth'.
+Mono: Probing 'GdipGetImageWidth'.
+Mono: Found as 'GdipGetImageWidth'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipGetImageHeight'.
+Mono: Probing 'GdipGetImageHeight'.
+Mono: Found as 'GdipGetImageHeight'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipGetImagePixelFormat'.
+Mono: Probing 'GdipGetImagePixelFormat'.
+Mono: Found as 'GdipGetImagePixelFormat'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipBitmapLockBits'.
+Mono: Probing 'GdipBitmapLockBits'.
+Mono: Found as 'GdipBitmapLockBits'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipBitmapUnlockBits'.
+Mono: Probing 'GdipBitmapUnlockBits'.
+Mono: Found as 'GdipBitmapUnlockBits'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XQueryBestCursor'.
+Mono: Probing 'XQueryBestCursor'.
+Mono: Found as 'XQueryBestCursor'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XCreatePixmapFromBitmapData'.
+Mono: Probing 'XCreatePixmapFromBitmapData'.
+Mono: Found as 'XCreatePixmapFromBitmapData'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XWhitePixel'.
+Mono: Probing 'XWhitePixel'.
+Mono: Found as 'XWhitePixel'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XBlackPixel'.
+Mono: Probing 'XBlackPixel'.
+Mono: Found as 'XBlackPixel'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XCreatePixmapCursor'.
+Mono: Probing 'XCreatePixmapCursor'.
+Mono: Found as 'XCreatePixmapCursor'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XFreePixmap'.
+Mono: Probing 'XFreePixmap'.
+Mono: Found as 'XFreePixmap'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipBitmapGetPixel'.
+Mono: Probing 'GdipBitmapGetPixel'.
+Mono: Found as 'GdipBitmapGetPixel'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipDisposeImage'.
+Mono: Probing 'GdipDisposeImage'.
+Mono: Found as 'GdipDisposeImage'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipGetImageGraphicsContext'.
+Mono: Probing 'GdipGetImageGraphicsContext'.
+Mono: Found as 'GdipGetImageGraphicsContext'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipSetVisibleClip_linux'.
+Mono: Probing 'GdipSetVisibleClip_linux'.
+Mono: Found as 'GdipSetVisibleClip_linux'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipDrawImageRectI'.
+Mono: Probing 'GdipDrawImageRectI'.
+Mono: Found as 'GdipDrawImageRectI'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipDeleteGraphics'.
+Mono: Probing 'GdipDeleteGraphics'.
+Mono: Found as 'GdipDeleteGraphics'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipBitmapSetPixel'.
+Mono: Probing 'GdipBitmapSetPixel'.
+Mono: Found as 'GdipBitmapSetPixel'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipCreateFont'.
+Mono: Probing 'GdipCreateFont'.
+Mono: Found as 'GdipCreateFont'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipCreateFontFamilyFromName'.
+Mono: Probing 'GdipCreateFontFamilyFromName'.
+Mono: Found as 'GdipCreateFontFamilyFromName'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipGetFamilyName'.
+Mono: Probing 'GdipGetFamilyNameW'.
+Mono: Probing 'GdipGetFamilyNameW'.
+Mono: Probing 'GdipGetFamilyName'.
+Mono: Found as 'GdipGetFamilyName'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipCreateFromContext_macosx'.
+Mono: Probing 'GdipCreateFromContext_macosx'.
+Mono: Probing 'GdipCreateFromContext_macosx'.
+Mono: Probing 'GdipCreateFromContext_macosxA'.
+Mono: Probing 'GdipCreateFromContext_macosxA'.
+Mono: DllImport attempting to load: 'libX11.so.6'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Drawing/4.0.0.0__b03f5f7f11d50a3a/libX11.so.6': '/usr/lib/mono/gac/System.Drawing/4.0.0.0__b03f5f7f11d50a3a/libX11.so.6: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Drawing/4.0.0.0__b03f5f7f11d50a3a/libX11.so.6.so': '/usr/lib/mono/gac/System.Drawing/4.0.0.0__b03f5f7f11d50a3a/libX11.so.6.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport loaded library 'libX11.so.6'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XOpenDisplay'.
+Mono: Probing 'XOpenDisplay'.
+Mono: Found as 'XOpenDisplay'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XDefaultScreen'.
+Mono: Probing 'XDefaultScreen'.
+Mono: Found as 'XDefaultScreen'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XRootWindow'.
+Mono: Probing 'XRootWindow'.
+Mono: Found as 'XRootWindow'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipCreateFromHWND'.
+Mono: Probing 'GdipCreateFromHWND'.
+Mono: Found as 'GdipCreateFromHWND'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipCreateFromXDrawable_linux'.
+Mono: Probing 'GdipCreateFromXDrawable_linux'.
+Mono: Found as 'GdipCreateFromXDrawable_linux'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipMeasureString'.
+Mono: Probing 'GdipMeasureStringW'.
+Mono: Probing 'GdipMeasureStringW'.
+Mono: Probing 'GdipMeasureString'.
+Mono: Found as 'GdipMeasureString'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipGetDpiX'.
+Mono: Probing 'GdipGetDpiX'.
+Mono: Found as 'GdipGetDpiX'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipGetDpiY'.
+Mono: Probing 'GdipGetDpiY'.
+Mono: Found as 'GdipGetDpiY'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipGetFontHeightGivenDPI'.
+Mono: Probing 'GdipGetFontHeightGivenDPI'.
+Mono: Found as 'GdipGetFontHeightGivenDPI'.
+Mono: Assembly Ref addref DirectSoundDemo[0x10744d0] -> System.Drawing[0x109e5b0]: 3
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipStringFormatGetGenericTypographic'.
+Mono: Probing 'GdipStringFormatGetGenericTypographic'.
+Mono: Found as 'GdipStringFormatGetGenericTypographic'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipCloneStringFormat'.
+Mono: Probing 'GdipCloneStringFormat'.
+Mono: Found as 'GdipCloneStringFormat'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipGetCellAscent'.
+Mono: Probing 'GdipGetCellAscent'.
+Mono: Found as 'GdipGetCellAscent'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipGetCellDescent'.
+Mono: Probing 'GdipGetCellDescent'.
+Mono: Found as 'GdipGetCellDescent'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipSetStringFormatTrimming'.
+Mono: Probing 'GdipSetStringFormatTrimming'.
+Mono: Found as 'GdipSetStringFormatTrimming'.
+Mono: DllImport attempting to load: 'gdi32'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32.so': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32': 'libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32.so': 'libgdi32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'gdi32': 'gdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32.so': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32': 'libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32.so': 'libgdi32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32': 'libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport unable to load library 'libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport attempting to load: 'user32'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libuser32': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libuser32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libuser32.so': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libuser32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libuser32': 'libuser32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libuser32.so': 'libuser32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'user32': 'user32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libuser32': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libuser32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libuser32.so': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libuser32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libuser32': 'libuser32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libuser32.so': 'libuser32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libuser32': 'libuser32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libMonoSupportW.so': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libMonoSupportW.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libMonoSupportW.so': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libMonoSupportW.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport loaded library 'libMonoSupportW.so'.
+Mono: DllImport searching in: 'user32' ('libMonoSupportW.so').
+Mono: Searching for 'DrawText'.
+Mono: Probing 'DrawTextW'.
+Mono: Probing 'DrawTextW'.
+Mono: Probing 'DrawText'.
+Mono: Probing 'DrawText'.
+Mono: DllImport attempting to load: 'gdi32'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32.so': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32': 'libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32.so': 'libgdi32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'gdi32': 'gdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32.so': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32': 'libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32.so': 'libgdi32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32': 'libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport unable to load library 'libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XReparentWindow'.
+Mono: Probing 'XReparentWindow'.
+Mono: Found as 'XReparentWindow'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XUnmapWindow'.
+Mono: Probing 'XUnmapWindow'.
+Mono: Found as 'XUnmapWindow'.
+Mono: Assembly Loader probing location: '/usr/lib/DirectSoundDemo.resources.dll'.
+Mono: Assembly Loader probing location: '/usr/lib/mono/4.5/Facades/DirectSoundDemo.resources.dll'.
+Mono: Assembly Loader probing location: '/usr/lib/DirectSoundDemo.resources.exe'.
+Mono: Assembly Loader probing location: '/usr/lib/mono/4.5/Facades/DirectSoundDemo.resources.exe'.
+Mono: Assembly Loader probing location: '/usr/lib/DirectSoundDemo.resources.dll'.
+Mono: Assembly Loader probing location: '/usr/lib/mono/4.5/Facades/DirectSoundDemo.resources.dll'.
+Mono: Assembly Loader probing location: '/usr/lib/DirectSoundDemo.resources.exe'.
+Mono: Assembly Loader probing location: '/usr/lib/mono/4.5/Facades/DirectSoundDemo.resources.exe'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipLoadImageFromDelegate_linux'.
+Mono: Probing 'GdipLoadImageFromDelegate_linux'.
+Mono: Found as 'GdipLoadImageFromDelegate_linux'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipLoadImageFromStream'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipCloneImage'.
+Mono: Probing 'GdipCloneImage'.
+Mono: Found as 'GdipCloneImage'.
+Mono: Assembly Ref addref SynthControls[0x148b7a0] -> System.Drawing[0x109e5b0]: 4
+Mono: Assembly Ref addref SynthControls[0x148b7a0] -> System[0x108b9c0]: 7
+Mono: Assembly Ref addref SynthControls[0x148b7a0] -> mscorlib[0x10084c0]: 9
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipCreateSolidFill'.
+Mono: Probing 'GdipCreateSolidFill'.
+Mono: Found as 'GdipCreateSolidFill'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipCreatePen2'.
+Mono: Probing 'GdipCreatePen2'.
+Mono: Found as 'GdipCreatePen2'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipGetGenericFontFamilySansSerif'.
+Mono: Probing 'GdipGetGenericFontFamilySansSerif'.
+Mono: Found as 'GdipGetGenericFontFamilySansSerif'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipGetGenericFontFamilySerif'.
+Mono: Probing 'GdipGetGenericFontFamilySerif'.
+Mono: Found as 'GdipGetGenericFontFamilySerif'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipGetGenericFontFamilyMonospace'.
+Mono: Probing 'GdipGetGenericFontFamilyMonospace'.
+Mono: Found as 'GdipGetGenericFontFamilyMonospace'.
+Mono: GC_MINOR: (Nursery full) pause 3,67ms, total 3,70ms, bridge 0,00ms promoted 3584K major 4480K los 239K
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipDeleteStringFormat'.
+Mono: Probing 'GdipDeleteStringFormat'.
+Mono: Found as 'GdipDeleteStringFormat'.
+Mono: Assembly Loader probing location: '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/AudioSynthesis.dll'.
+Mono: Image addref AudioSynthesis[0x1a31570] -> /media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/AudioSynthesis.dll[0x1a30c90]: 2
+Mono: Assembly AudioSynthesis[0x1a31570] added to domain DirectSoundDemo.exe, ref_count=1
+Mono: AOT module '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/AudioSynthesis.dll.so' not found: /media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/AudioSynthesis.dll.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado
+
+Mono: Assembly Loader loaded assembly from location: '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/AudioSynthesis.dll'.
+Mono: Config attempting to parse: '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/AudioSynthesis.dll.config'.
+Mono: Config attempting to parse: '/etc/mono/assemblies/AudioSynthesis/AudioSynthesis.config'.
+Mono: Assembly Ref addref DirectSoundDemo[0x10744d0] -> AudioSynthesis[0x1a31570]: 2
+Mono: Assembly Ref addref AudioSynthesis[0x1a31570] -> mscorlib[0x10084c0]: 10
+Mono: Assembly Ref addref AudioSynthesis[0x1a31570] -> System[0x108b9c0]: 8
+Mono: Assembly Loader probing location: '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/NAudio.dll'.
+Mono: Image addref NAudio[0x1ab4260] -> /media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/NAudio.dll[0x1ab3170]: 2
+Mono: Assembly NAudio[0x1ab4260] added to domain DirectSoundDemo.exe, ref_count=1
+Mono: AOT module '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/NAudio.dll.so' not found: /media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/NAudio.dll.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado
+
+Mono: Assembly Loader loaded assembly from location: '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/NAudio.dll'.
+Mono: Config attempting to parse: '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/NAudio.dll.config'.
+Mono: Config attempting to parse: '/etc/mono/assemblies/NAudio/NAudio.config'.
+Mono: Assembly Ref addref DirectSoundDemo[0x10744d0] -> NAudio[0x1ab4260]: 2
+Mono: The request to load the assembly mscorlib v2.0.0.0 was remapped to v4.0.0.0
+Mono: Assembly Ref addref NAudio[0x1ab4260] -> mscorlib[0x10084c0]: 11
+Mono: Assembly Ref addref System[0x108b9c0] -> System[0x108b9c0]: 9
+Mono: Assembly Loader probing location: '/usr/lib/mono/gac/Mono.Security/4.0.0.0__0738eb9f132ed756/Mono.Security.dll'.
+Mono: Image addref Mono.Security[0x1a34370] -> /usr/lib/mono/gac/Mono.Security/4.0.0.0__0738eb9f132ed756/Mono.Security.dll[0x1b00b00]: 2
+Mono: Assembly Mono.Security[0x1a34370] added to domain DirectSoundDemo.exe, ref_count=1
+Mono: AOT module '/usr/lib/mono/gac/Mono.Security/4.0.0.0__0738eb9f132ed756/Mono.Security.dll.so' not found: /usr/lib/mono/gac/Mono.Security/4.0.0.0__0738eb9f132ed756/Mono.Security.dll.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado
+
+Mono: Assembly Loader loaded assembly from location: '/usr/lib/mono/gac/Mono.Security/4.0.0.0__0738eb9f132ed756/Mono.Security.dll'.
+Mono: Config attempting to parse: '/usr/lib/mono/gac/Mono.Security/4.0.0.0__0738eb9f132ed756/Mono.Security.dll.config'.
+Mono: Config attempting to parse: '/etc/mono/assemblies/Mono.Security/Mono.Security.config'.
+Mono: Assembly Ref addref Mono.Security[0x1a34370] -> mscorlib[0x10084c0]: 12
+Mono: GC_MINOR: (Nursery full) pause 7,11ms, total 7,17ms, bridge 0,00ms promoted 3392K major 7872K los 271K
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipDeleteFontFamily'.
+Mono: Probing 'GdipDeleteFontFamily'.
+Mono: Found as 'GdipDeleteFontFamily'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipDeleteFont'.
+Mono: Probing 'GdipDeleteFont'.
+Mono: Found as 'GdipDeleteFont'.
+Mono: The request to load the assembly System.Core v3.5.0.0 was remapped to v4.0.0.0
+Mono: Assembly Loader probing location: '/usr/lib/mono/gac/System.Core/4.0.0.0__b77a5c561934e089/System.Core.dll'.
+Mono: Image addref System.Core[0x19ad5b0] -> /usr/lib/mono/gac/System.Core/4.0.0.0__b77a5c561934e089/System.Core.dll[0x18e3140]: 2
+Mono: Assembly System.Core[0x19ad5b0] added to domain DirectSoundDemo.exe, ref_count=1
+Mono: AOT module '/usr/lib/mono/gac/System.Core/4.0.0.0__b77a5c561934e089/System.Core.dll.so' not found: /usr/lib/mono/gac/System.Core/4.0.0.0__b77a5c561934e089/System.Core.dll.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado
+
+Mono: Assembly Loader loaded assembly from location: '/usr/lib/mono/gac/System.Core/4.0.0.0__b77a5c561934e089/System.Core.dll'.
+Mono: Config attempting to parse: '/usr/lib/mono/gac/System.Core/4.0.0.0__b77a5c561934e089/System.Core.dll.config'.
+Mono: Config attempting to parse: '/etc/mono/assemblies/System.Core/System.Core.config'.
+Mono: Assembly Ref addref NAudio[0x1ab4260] -> System.Core[0x19ad5b0]: 2
+Mono: Assembly Ref addref System.Core[0x19ad5b0] -> mscorlib[0x10084c0]: 13
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XRaiseWindow'.
+Mono: Probing 'XRaiseWindow'.
+Mono: Found as 'XRaiseWindow'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XConfigureWindow'.
+Mono: Probing 'XConfigureWindow'.
+Mono: Found as 'XConfigureWindow'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XLowerWindow'.
+Mono: Probing 'XLowerWindow'.
+Mono: Found as 'XLowerWindow'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XDeleteProperty'.
+Mono: Probing 'XDeleteProperty'.
+Mono: Found as 'XDeleteProperty'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XChangeProperty'.
+Mono: Probing 'XChangeProperty'.
+Mono: Found as 'XChangeProperty'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipGetImageType'.
+Mono: Probing 'GdipGetImageType'.
+Mono: Found as 'GdipGetImageType'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipImageGetFrameDimensionsCount'.
+Mono: Probing 'GdipImageGetFrameDimensionsCount'.
+Mono: Found as 'GdipImageGetFrameDimensionsCount'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipImageGetFrameDimensionsList'.
+Mono: Probing 'GdipImageGetFrameDimensionsList'.
+Mono: Found as 'GdipImageGetFrameDimensionsList'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XSetICFocus'.
+Mono: Probing 'XSetICFocus'.
+Mono: Found as 'XSetICFocus'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XGetICValues'.
+Mono: Probing 'XGetICValues'.
+Mono: Found as 'XGetICValues'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XCreateIC'.
+Mono: Probing 'XCreateIC'.
+Mono: Found as 'XCreateIC'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XCreateIC'.
+Mono: Probing 'XCreateIC'.
+Mono: Found as 'XCreateIC'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XGetIMValues'.
+Mono: Probing 'XGetIMValues'.
+Mono: Found as 'XGetIMValues'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XCreateFontSet'.
+Mono: Probing 'XCreateFontSet'.
+Mono: Found as 'XCreateFontSet'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XVaCreateNestedList'.
+Mono: Probing 'XVaCreateNestedList'.
+Mono: Found as 'XVaCreateNestedList'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XFreeStringList'.
+Mono: Probing 'XFreeStringList'.
+Mono: Found as 'XFreeStringList'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XQueryPointer'.
+Mono: Probing 'XQueryPointer'.
+Mono: Found as 'XQueryPointer'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XChangeProperty'.
+Mono: Probing 'XChangeProperty'.
+Mono: Found as 'XChangeProperty'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XPending'.
+Mono: Probing 'XPending'.
+Mono: Found as 'XPending'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XNextEvent'.
+Mono: Probing 'XNextEvent'.
+Mono: Found as 'XNextEvent'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XFilterEvent'.
+Mono: Probing 'XFilterEvent'.
+Mono: Found as 'XFilterEvent'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XChangeProperty'.
+Mono: Probing 'XChangeProperty'.
+Mono: Found as 'XChangeProperty'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XSendEvent'.
+Mono: Probing 'XSendEvent'.
+Mono: Found as 'XSendEvent'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XPeekEvent'.
+Mono: Probing 'XPeekEvent'.
+Mono: Found as 'XPeekEvent'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XDefineCursor'.
+Mono: Probing 'XDefineCursor'.
+Mono: Found as 'XDefineCursor'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XUndefineCursor'.
+Mono: Probing 'XUndefineCursor'.
+Mono: Found as 'XUndefineCursor'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XFlush'.
+Mono: Probing 'XFlush'.
+Mono: Found as 'XFlush'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipCreateRegionRectI'.
+Mono: Probing 'GdipCreateRegionRectI'.
+Mono: Found as 'GdipCreateRegionRectI'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipGetRegionHRgn'.
+Mono: Probing 'GdipGetRegionHRgn'.
+Mono: Found as 'GdipGetRegionHRgn'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipCreateRegion'.
+Mono: Probing 'GdipCreateRegion'.
+Mono: Found as 'GdipCreateRegion'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipSetEmpty'.
+Mono: Probing 'GdipSetEmpty'.
+Mono: Found as 'GdipSetEmpty'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipCombineRegionRectI'.
+Mono: Probing 'GdipCombineRegionRectI'.
+Mono: Found as 'GdipCombineRegionRectI'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipSetClipRegion'.
+Mono: Probing 'GdipSetClipRegion'.
+Mono: Found as 'GdipSetClipRegion'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XGetGeometry'.
+Mono: Probing 'XGetGeometry'.
+Mono: Found as 'XGetGeometry'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XCreatePixmap'.
+Mono: Probing 'XCreatePixmap'.
+Mono: Found as 'XCreatePixmap'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipFillRectangleI'.
+Mono: Probing 'GdipFillRectangleI'.
+Mono: Found as 'GdipFillRectangleI'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipCreatePen1'.
+Mono: Probing 'GdipCreatePen1'.
+Mono: Found as 'GdipCreatePen1'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipCreateHatchBrush'.
+Mono: Probing 'GdipCreateHatchBrush'.
+Mono: Found as 'GdipCreateHatchBrush'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipDrawLineI'.
+Mono: Probing 'GdipDrawLineI'.
+Mono: Found as 'GdipDrawLineI'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipDrawString'.
+Mono: Probing 'GdipDrawStringW'.
+Mono: Probing 'GdipDrawStringW'.
+Mono: Probing 'GdipDrawString'.
+Mono: Found as 'GdipDrawString'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XCreateGC'.
+Mono: Probing 'XCreateGC'.
+Mono: Found as 'XCreateGC'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XCopyArea'.
+Mono: Probing 'XCopyArea'.
+Mono: Found as 'XCopyArea'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XFreeGC'.
+Mono: Probing 'XFreeGC'.
+Mono: Found as 'XFreeGC'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipFlush'.
+Mono: Probing 'GdipFlush'.
+Mono: Found as 'GdipFlush'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipSetClipRectI'.
+Mono: Probing 'GdipSetClipRectI'.
+Mono: Found as 'GdipSetClipRectI'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipGraphicsClear'.
+Mono: Probing 'GdipGraphicsClear'.
+Mono: Found as 'GdipGraphicsClear'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipDrawRectangleI'.
+Mono: Probing 'GdipDrawRectangleI'.
+Mono: Found as 'GdipDrawRectangleI'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipTranslateWorldTransform'.
+Mono: Probing 'GdipTranslateWorldTransform'.
+Mono: Found as 'GdipTranslateWorldTransform'.
+Mono: DllImport attempting to load: 'gdi32'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32.so': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32': 'libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32.so': 'libgdi32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'gdi32': 'gdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32.so': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32': 'libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32.so': 'libgdi32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32': 'libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport unable to load library 'libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport attempting to load: 'gdi32'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32.so': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32': 'libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32.so': 'libgdi32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'gdi32': 'gdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32.so': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32': 'libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32.so': 'libgdi32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32': 'libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport unable to load library 'libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport attempting to load: 'gdi32'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32.so': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32': 'libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32.so': 'libgdi32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'gdi32': 'gdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32.so': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32': 'libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32.so': 'libgdi32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32': 'libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport unable to load library 'libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport attempting to load: 'gdi32'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32.so': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32': 'libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32.so': 'libgdi32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'gdi32': 'gdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32.so': '/usr/lib/mono/gac/System.Windows.Forms/4.0.0.0__b77a5c561934e089/libgdi32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32': 'libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32.so': 'libgdi32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libgdi32': 'libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport unable to load library 'libgdi32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipResetWorldTransform'.
+Mono: Probing 'GdipResetWorldTransform'.
+Mono: Found as 'GdipResetWorldTransform'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipCreateLineBrushFromRectI'.
+Mono: Probing 'GdipCreateLineBrushFromRectI'.
+Mono: Found as 'GdipCreateLineBrushFromRectI'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipDeleteBrush'.
+Mono: Probing 'GdipDeleteBrush'.
+Mono: Found as 'GdipDeleteBrush'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipDrawPolygonI'.
+Mono: Probing 'GdipDrawPolygonI'.
+Mono: Found as 'GdipDrawPolygonI'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipGetClip'.
+Mono: Probing 'GdipGetClip'.
+Mono: Found as 'GdipGetClip'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipDeletePen'.
+Mono: Probing 'GdipDeletePen'.
+Mono: Found as 'GdipDeletePen'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipIsVisibleRegionRectI'.
+Mono: Probing 'GdipIsVisibleRegionRectI'.
+Mono: Found as 'GdipIsVisibleRegionRectI'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipDrawLine'.
+Mono: Probing 'GdipDrawLine'.
+Mono: Found as 'GdipDrawLine'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipDeleteRegion'.
+Mono: Probing 'GdipDeleteRegion'.
+Mono: Found as 'GdipDeleteRegion'.
+Mono: DllImport attempting to load: 'libc.so.6'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/Mono.Posix/4.0.0.0__0738eb9f132ed756/libc.so.6': '/usr/lib/mono/gac/Mono.Posix/4.0.0.0__0738eb9f132ed756/libc.so.6: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/Mono.Posix/4.0.0.0__0738eb9f132ed756/libc.so.6.so': '/usr/lib/mono/gac/Mono.Posix/4.0.0.0__0738eb9f132ed756/libc.so.6.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport loaded library 'libc.so.6'.
+Mono: DllImport searching in: 'libc.so.6' ('libc.so.6').
+Mono: Searching for 'poll'.
+Mono: Probing 'poll'.
+Mono: Found as 'poll'.
+Mono: DllImport attempting to load: 'libMonoPosixHelper.so'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/Mono.Posix/4.0.0.0__0738eb9f132ed756/libMonoPosixHelper.so': '/usr/lib/mono/gac/Mono.Posix/4.0.0.0__0738eb9f132ed756/libMonoPosixHelper.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/usr/lib/mono/gac/Mono.Posix/4.0.0.0__0738eb9f132ed756/libMonoPosixHelper.so': '/usr/lib/mono/gac/Mono.Posix/4.0.0.0__0738eb9f132ed756/libMonoPosixHelper.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport loaded library 'libMonoPosixHelper.so'.
+Mono: DllImport searching in: 'libMonoPosixHelper.so' ('libMonoPosixHelper.so').
+Mono: Searching for 'Mono_Posix_Syscall_get_at_fdcwd'.
+Mono: Probing 'Mono_Posix_Syscall_get_at_fdcwd'.
+Mono: Found as 'Mono_Posix_Syscall_get_at_fdcwd'.
+Mono: DllImport searching in: 'libMonoPosixHelper.so' ('libMonoPosixHelper.so').
+Mono: Searching for 'Mono_Posix_Syscall_L_ctermid'.
+Mono: Probing 'Mono_Posix_Syscall_L_ctermid'.
+Mono: Found as 'Mono_Posix_Syscall_L_ctermid'.
+Mono: DllImport searching in: 'libMonoPosixHelper.so' ('libMonoPosixHelper.so').
+Mono: Searching for 'Mono_Posix_Syscall_L_cuserid'.
+Mono: Probing 'Mono_Posix_Syscall_L_cuserid'.
+Mono: Found as 'Mono_Posix_Syscall_L_cuserid'.
+Mono: DllImport searching in: 'libMonoPosixHelper.so' ('libMonoPosixHelper.so').
+Mono: Searching for 'Mono_Posix_Syscall_get_utime_now'.
+Mono: Probing 'Mono_Posix_Syscall_get_utime_now'.
+Mono: Found as 'Mono_Posix_Syscall_get_utime_now'.
+Mono: DllImport searching in: 'libMonoPosixHelper.so' ('libMonoPosixHelper.so').
+Mono: Searching for 'Mono_Posix_Syscall_get_utime_omit'.
+Mono: Probing 'Mono_Posix_Syscall_get_utime_omit'.
+Mono: Found as 'Mono_Posix_Syscall_get_utime_omit'.
+Mono: DllImport searching in: 'libMonoPosixHelper.so' ('libMonoPosixHelper.so').
+Mono: Searching for 'Mono_Posix_FromPollEvents'.
+Mono: Probing 'Mono_Posix_FromPollEvents'.
+Mono: Found as 'Mono_Posix_FromPollEvents'.
+Mono: DllImport searching in: 'libMonoPosixHelper.so' ('libMonoPosixHelper.so').
+Mono: Searching for 'Mono_Posix_ToPollEvents'.
+Mono: Probing 'Mono_Posix_ToPollEvents'.
+Mono: Found as 'Mono_Posix_ToPollEvents'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XGrabServer'.
+Mono: Probing 'XGrabServer'.
+Mono: Found as 'XGrabServer'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XUngrabServer'.
+Mono: Probing 'XUngrabServer'.
+Mono: Found as 'XUngrabServer'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XGrabPointer'.
+Mono: Probing 'XGrabPointer'.
+Mono: Found as 'XGrabPointer'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XUngrabPointer'.
+Mono: Probing 'XUngrabPointer'.
+Mono: Found as 'XUngrabPointer'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipDrawLinesI'.
+Mono: Probing 'GdipDrawLinesI'.
+Mono: Found as 'GdipDrawLinesI'.
+[0x7fde582fa7c0:] EXCEPTION handling: System.IO.EndOfStreamException: Failed to read past end of stream.
+
+"<unnamed thread>" tid=0x0x7fde582fa7c0 this=0x0x7fde54d00010 thread handle 0x403 state : not waiting owns ()
+  at System.IO.BinaryReader.ReadChar () <0x00043>
+  at System.Windows.Forms.FDOMimeConfigReader.MakeMatches () <0x00220>
+  at System.Windows.Forms.FDOMimeConfigReader.ReadMagicData () <0x00157>
+  at System.Windows.Forms.FDOMimeConfigReader.Init () <0x0006f>
+  at System.Windows.Forms.Mime..ctor () <0x003fb>
+  at System.Windows.Forms.Mime..cctor () <0x0001b>
+  at (wrapper runtime-invoke) object.runtime_invoke_void (object,intptr,intptr,intptr) <0xffffffff>
+  at <unknown> <0xffffffff>
+  at System.Windows.Forms.MimeIconEngine..cctor () <0x0020b>
+  at (wrapper runtime-invoke) object.runtime_invoke_void (object,intptr,intptr,intptr) <0xffffffff>
+  at <unknown> <0xffffffff>
+  at System.Windows.Forms.UnixFileSystem..ctor () <0x0032b>
+  at System.Windows.Forms.MWFVFS..ctor () <0x00033>
+  at System.Windows.Forms.FileDialog..ctor () <0x00257>
+  at System.Windows.Forms.OpenFileDialog..ctor () <0x00013>
+  at (wrapper remoting-invoke-with-check) System.Windows.Forms.OpenFileDialog..ctor () <0xffffffff>
+  at DirectSoundDemo.MainForm.OpenFile (object,System.EventArgs) <0x0003b>
+  at System.Windows.Forms.ToolStripItem.OnClick (System.EventArgs) <0x00069>
+  at System.Windows.Forms.ToolStripMenuItem.OnClick (System.EventArgs) <0x0031b>
+  at System.Windows.Forms.ToolStripMenuItem.HandleClick (int,System.EventArgs) <0x00020>
+  at System.Windows.Forms.ToolStripItem.FireEvent (System.EventArgs,System.Windows.Forms.ToolStripItemEventType) <0x000b2>
+  at (wrapper remoting-invoke-with-check) System.Windows.Forms.ToolStripItem.FireEvent (System.EventArgs,System.Windows.Forms.ToolStripItemEventType) <0xffffffff>
+  at System.Windows.Forms.ToolStrip.OnMouseUp (System.Windows.Forms.MouseEventArgs) <0x0017f>
+  at System.Windows.Forms.ToolStripDropDown.OnMouseUp (System.Windows.Forms.MouseEventArgs) <0x0001b>
+  at System.Windows.Forms.Control.WmLButtonUp (System.Windows.Forms.Message&) <0x0010c>
+  at System.Windows.Forms.Control.WndProc (System.Windows.Forms.Message&) <0x00213>
+  at System.Windows.Forms.ScrollableControl.WndProc (System.Windows.Forms.Message&) <0x0001b>
+  at System.Windows.Forms.ToolStrip.WndProc (System.Windows.Forms.Message&) <0x0001b>
+  at System.Windows.Forms.ToolStripDropDown.WndProc (System.Windows.Forms.Message&) <0x00033>
+  at System.Windows.Forms.Control/ControlWindowTarget.OnMessage (System.Windows.Forms.Message&) <0x00025>
+  at System.Windows.Forms.Control/ControlNativeWindow.WndProc (System.Windows.Forms.Message&) <0x00036>
+  at System.Windows.Forms.NativeWindow.WndProc (intptr,System.Windows.Forms.Msg,intptr,intptr) <0x00310>
+  at System.Windows.Forms.XplatUIX11.DispatchMessage (System.Windows.Forms.MSG&) <0x0001f>
+  at System.Windows.Forms.XplatUI.DispatchMessage (System.Windows.Forms.MSG&) <0x0001f>
+  at System.Windows.Forms.Application.RunLoop (bool,System.Windows.Forms.ApplicationContext) <0x00c7f>
+  at System.Windows.Forms.Application.Run (System.Windows.Forms.ApplicationContext) <0x0005f>
+  at System.Windows.Forms.Application.Run (System.Windows.Forms.Form) <0x00033>
+  at DirectSoundDemo.Program.Main () <0x0003b>
+  at (wrapper runtime-invoke) object.runtime_invoke_void (object,intptr,intptr,intptr) <0xffffffff>
+
+Mono: GC_MINOR: (Nursery full) pause 3,09ms, total 3,16ms, bridge 0,00ms promoted 896K major 8768K los 998K
+Mono: Assembly Ref addref System.Windows.Forms[0x107bc70] -> System.Xml[0x11baeb0]: 4
+Mono: GC_MINOR: (Nursery full) pause 2,08ms, total 2,11ms, bridge 0,00ms promoted 640K major 9408K los 1110K
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XSetFunction'.
+Mono: Probing 'XSetFunction'.
+Mono: Found as 'XSetFunction'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XDrawLine'.
+Mono: Probing 'XDrawLine'.
+Mono: Found as 'XDrawLine'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'Xutf8ResetIC'.
+Mono: Probing 'Xutf8ResetIC'.
+Mono: Found as 'Xutf8ResetIC'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XUnsetICFocus'.
+Mono: Probing 'XUnsetICFocus'.
+Mono: Found as 'XUnsetICFocus'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipSaveGraphics'.
+Mono: Probing 'GdipSaveGraphics'.
+Mono: Found as 'GdipSaveGraphics'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipRestoreGraphics'.
+Mono: Probing 'GdipRestoreGraphics'.
+Mono: Found as 'GdipRestoreGraphics'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipDrawImageRectRectI'.
+Mono: Probing 'GdipDrawImageRectRectI'.
+Mono: Found as 'GdipDrawImageRectRectI'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipCreateImageAttributes'.
+Mono: Probing 'GdipCreateImageAttributes'.
+Mono: Found as 'GdipCreateImageAttributes'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipSetImageAttributesColorMatrix'.
+Mono: Probing 'GdipSetImageAttributesColorMatrix'.
+Mono: Found as 'GdipSetImageAttributesColorMatrix'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipDrawImageI'.
+Mono: Probing 'GdipDrawImageI'.
+Mono: Found as 'GdipDrawImageI'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipFillPolygon2'.
+Mono: Probing 'GdipFillPolygon2'.
+Mono: Found as 'GdipFillPolygon2'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipFillPolygonI'.
+Mono: Probing 'GdipFillPolygonI'.
+Mono: Found as 'GdipFillPolygonI'.
+Mono: DllImport searching in: 'libgdiplus.so.0' ('libgdiplus.so.0').
+Mono: Searching for 'GdipCreateBitmapFromGraphics'.
+Mono: Probing 'GdipCreateBitmapFromGraphics'.
+Mono: Found as 'GdipCreateBitmapFromGraphics'.
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XDestroyIC'.
+Mono: Probing 'XDestroyIC'.
+Mono: Found as 'XDestroyIC'.
+Mono: GC_MINOR: (Nursery full) pause 1,97ms, total 2,02ms, bridge 0,00ms promoted 1536K major 10944K los 2977K
+Mono: GC_MINOR: (Nursery full) pause 1,60ms, total 1,65ms, bridge 0,00ms promoted 960K major 11904K los 3001K
+Mono: The request to load the assembly System v2.0.0.0 was remapped to v4.0.0.0
+Mono: Assembly Ref addref NAudio[0x1ab4260] -> System[0x108b9c0]: 10
+Mono: DllImport attempting to load: 'dsound.dll'.
+Mono: DllImport error loading library '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/libdsound.dll': '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/libdsound.dll: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/libdsound.dll.so': '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/libdsound.dll.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libdsound.dll': 'libdsound.dll: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libdsound.dll.so': 'libdsound.dll.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'dsound.dll': 'dsound.dll: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/libdsound': '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/libdsound: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport loaded library '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/libdsound.so'.
+Mono: DllImport searching in: 'dsound.dll' ('/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/libdsound.so').
+Mono: Searching for 'DirectSoundCreate'.
+Mono: DllImport attempting to load: 'user32.dll'.
+Mono: DllImport error loading library '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/libuser32.dll': '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/libuser32.dll: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/libuser32.dll.so': '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/libuser32.dll.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libuser32.dll': 'libuser32.dll: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libuser32.dll.so': 'libuser32.dll.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'user32.dll': 'user32.dll: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/libuser32': '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/libuser32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/libuser32.so': '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/libuser32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libuser32': 'libuser32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libuser32.so': 'libuser32.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'user32': 'user32: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/libuser32.dll': '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/libuser32.dll: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/libuser32.dll.so': '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/libuser32.dll.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libuser32.dll': 'libuser32.dll: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libuser32.dll.so': 'libuser32.dll.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library 'libuser32.dll': 'libuser32.dll: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/libMonoSupportW.so': '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/libMonoSupportW.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport error loading library '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/libMonoSupportW.so': '/media/lucas/arquivos/downloads/src/C#SynthWithNAudio/DirectSoundDemo/bin/Debug/libMonoSupportW.so: Não é possivel abrir arquivo de objetos compartilhado: Arquivo ou diretório não encontrado'.
+Mono: DllImport loaded library 'libMonoSupportW.so'.
+Mono: DllImport searching in: 'user32.dll' ('libMonoSupportW.so').
+Mono: Searching for 'GetDesktopWindow'.
+Mono: Probing 'GetDesktopWindow'.
+Mono: Probing 'GetDesktopWindow'.
+Mono: Probing 'GetDesktopWindowA'.
+Mono: Probing 'GetDesktopWindowA'.
+[0x7fde426bf700:] EXCEPTION handling: System.NullReferenceException: Object reference not set to an instance of an object
+
+"<unnamed thread>" tid=0x0x7fde426bf700 this=0x0x7fde54d06280 thread handle 0x415 state : not waiting owns ()
+  at NAudio.Wave.DirectSoundOut.PlaybackThreadFunc () <0x00194>
+  at System.Threading.Thread.StartInternal () <0x00071>
+  at (wrapper runtime-invoke) object.runtime_invoke_void__this__ (object,intptr,intptr,intptr) <0xffffffff>
+
+Mono: DllImport searching in: 'libX11.so.6' ('libX11.so.6').
+Mono: Searching for 'XGetInputFocus'.
+Mono: Probing 'XGetInputFocus'.
+Mono: Found as 'XGetInputFocus'.
+Mono: GC_MAJOR: (user request) pause 6,59ms, total 6,65ms, bridge 0,00ms major 6720K/11904K los 575K/3043K
+Mono: GC_MAJOR: (user request) pause 10,88ms, total 10,91ms, bridge 0,00ms major 6144K/6720K los 575K/575K
+[0x7fde54b1f700:] EXCEPTION handling: System.ArgumentException: A null reference or invalid value was found [GDI+ status: InvalidParameter]
+
+"Finalizer" tid=0x0x7fde54b1f700 this=0x0x7fde54d00178 thread handle 0x408 state : not waiting owns ()
+  at System.Drawing.GDIPlus.CheckStatus (System.Drawing.Status) <0x00137>
+  at System.Drawing.Graphics.GdipMeasureString (intptr,string,System.Drawing.Font,System.Drawing.RectangleF&,intptr) <0x000c7>
+  at System.Drawing.Graphics.MeasureString (string,System.Drawing.Font,int,System.Drawing.StringFormat) <0x000af>
+  at (wrapper remoting-invoke-with-check) System.Drawing.Graphics.MeasureString (string,System.Drawing.Font,int,System.Drawing.StringFormat) <0xffffffff>
+  at System.Windows.Forms.TextRenderer.MeasureTextInternal (System.Drawing.IDeviceContext,string,System.Drawing.Font,System.Drawing.Size,System.Windows.Forms.TextFormatFlags,bool) <0x00507>
+  at System.Windows.Forms.TextRenderer.MeasureText (string,System.Drawing.Font,System.Drawing.Size,System.Windows.Forms.TextFormatFlags) <0x0003f>
+  at System.Windows.Forms.ToolStripItem.OnParentChanged (System.Windows.Forms.ToolStrip,System.Windows.Forms.ToolStrip) <0x0007b>
+  at System.Windows.Forms.ToolStripItem.set_Parent (System.Windows.Forms.ToolStrip) <0x00077>
+  at (wrapper remoting-invoke-with-check) System.Windows.Forms.ToolStripItem.set_Parent (System.Windows.Forms.ToolStrip) <0xffffffff>
+  at System.Windows.Forms.ToolStripItemCollection.Remove (System.Windows.Forms.ToolStripItem) <0x00063>
+  at System.Windows.Forms.ToolStripItem.Dispose (bool) <0x00077>
+  at System.Windows.Forms.ToolStripDropDownItem.Dispose (bool) <0x004c7>
+  at System.Windows.Forms.ToolStripMenuItem.Dispose (bool) <0x0001b>
+  at System.ComponentModel.Component.Finalize () <0x0001d>
+  at (wrapper runtime-invoke) object.runtime_invoke_virtual_void__this__ (object,intptr,intptr,intptr) <0xffffffff>
+

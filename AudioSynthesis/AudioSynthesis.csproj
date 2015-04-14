@@ -1,0 +1,151 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <MinimumVisualStudioVersion>10.0</MinimumVisualStudioVersion>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{19114199-4388-4625-9E32-EAF80D468050}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AudioSynthesis</RootNamespace>
+    <AssemblyName>AudioSynthesis</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <!-- <TargetFrameworkProfile>Profile344</TargetFrameworkProfile>-->
+    <FileAlignment>512</FileAlignment>
+    <!-- <ProjectTypeGuids>{786C830F-07A1-408B-BD7F-6EE04809D6DB};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>-->
+    <ProductVersion>12.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <!-- A reference to the entire .NET Framework is automatically included -->
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Bank\AssetManager.cs" />
+    <Compile Include="Bank\Components\Effects\Chorus.cs" />
+    <Compile Include="Bank\Components\Effects\Delay.cs" />
+    <Compile Include="Bank\Components\Effects\Flanger.cs" />
+    <Compile Include="Bank\Components\Effects\IAudioEffect.cs" />
+    <Compile Include="Bank\Components\Enum.cs" />
+    <Compile Include="Bank\Components\Envelope.cs" />
+    <Compile Include="Bank\Components\Filter.cs" />
+    <Compile Include="Bank\Components\Generators\Generator.cs" />
+    <Compile Include="Bank\Components\Generators\GeneratorParameters.cs" />
+    <Compile Include="Bank\Components\Generators\SampleGenerator.cs" />
+    <Compile Include="Bank\Components\Generators\SawGenerator.cs" />
+    <Compile Include="Bank\Components\Generators\SineGenerator.cs" />
+    <Compile Include="Bank\Components\Generators\SquareGenerator.cs" />
+    <Compile Include="Bank\Components\Generators\TriangleGenerator.cs" />
+    <Compile Include="Bank\Components\Generators\WhiteNoiseGenerator.cs" />
+    <Compile Include="Bank\Components\LFO.cs" />
+    <Compile Include="Bank\DescriptorList.cs" />
+    <Compile Include="Bank\Descriptors\CustomDescriptor.cs" />
+    <Compile Include="Bank\Descriptors\EnvelopeDescriptor.cs" />
+    <Compile Include="Bank\Descriptors\FilterDescriptor.cs" />
+    <Compile Include="Bank\Descriptors\GeneratorDescriptor.cs" />
+    <Compile Include="Bank\Descriptors\IDescriptor.cs" />
+    <Compile Include="Bank\Descriptors\LFODescriptor.cs" />
+    <Compile Include="Bank\PatchAsset.cs" />
+    <Compile Include="Bank\PatchBank.cs" />
+    <Compile Include="Bank\Patches\BasicPatch.cs" />
+    <Compile Include="Bank\Patches\Fm2Patch.cs" />
+    <Compile Include="Bank\Patches\MultiPatch.cs" />
+    <Compile Include="Bank\Patches\Patch.cs" />
+    <Compile Include="Bank\Patches\Sf2Patch.cs" />
+    <Compile Include="Bank\Patches\SfzPatch.cs" />
+    <Compile Include="Bank\SampleDataAsset.cs" />
+    <Compile Include="IResource.cs" />
+    <Compile Include="Midi\Event\MetaDataEvent.cs" />
+    <Compile Include="Midi\Event\MetaEvent.cs" />
+    <Compile Include="Midi\Event\MetaNumberEvent.cs" />
+    <Compile Include="Midi\Event\MetaTextEvent.cs" />
+    <Compile Include="Midi\Event\MidiEvent.cs" />
+    <Compile Include="Midi\Event\RealTimeEvent.cs" />
+    <Compile Include="Midi\Event\SystemCommonEvent.cs" />
+    <Compile Include="Midi\Event\SystemExclusiveEvent.cs" />
+    <Compile Include="Midi\MidiFile.cs" />
+    <Compile Include="Midi\MidiHelper.cs" />
+    <Compile Include="Midi\MidiTrack.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Sequencer\MidiFileSequencer.cs" />
+    <Compile Include="Sequencer\MidiInputSequencer.cs" />
+    <Compile Include="Sf2\Chunks\GeneratorChunk.cs" />
+    <Compile Include="Sf2\Chunks\InstrumentChunk.cs" />
+    <Compile Include="Sf2\Chunks\ModulatorChunk.cs" />
+    <Compile Include="Sf2\Chunks\PresetHeaderChunk.cs" />
+    <Compile Include="Sf2\Chunks\SampleHeaderChunk.cs" />
+    <Compile Include="Sf2\Chunks\ZoneChunk.cs" />
+    <Compile Include="Sf2\Enum.cs" />
+    <Compile Include="Sf2\Generator.cs" />
+    <Compile Include="Sf2\Instrument.cs" />
+    <Compile Include="Sf2\Modulator.cs" />
+    <Compile Include="Sf2\ModulatorType.cs" />
+    <Compile Include="Sf2\PresetHeader.cs" />
+    <Compile Include="Sf2\SampleHeader.cs" />
+    <Compile Include="Sf2\Sf2Region.cs" />
+    <Compile Include="Sf2\SoundFont.cs" />
+    <Compile Include="Sf2\SoundFontInfo.cs" />
+    <Compile Include="Sf2\SoundFontPresets.cs" />
+    <Compile Include="Sf2\SoundFontSampleData.cs" />
+    <Compile Include="Sf2\Zone.cs" />
+    <Compile Include="Sfz\SfzReader.cs" />
+    <Compile Include="Sfz\SfzRegion.cs" />
+    <Compile Include="Synthesis\Synthesizer.Constants.cs" />
+    <Compile Include="Synthesis\Synthesizer.Main.cs" />
+    <Compile Include="Synthesis\Synthesizer.MidiControl.cs" />
+    <Compile Include="Synthesis\SynthParameters.cs" />
+    <Compile Include="Synthesis\SynthHelper.cs" />
+    <Compile Include="Synthesis\Voice.cs" />
+    <Compile Include="Synthesis\VoiceManager.cs" />
+    <Compile Include="Synthesis\VoiceParameters.cs" />
+    <Compile Include="Util\IOHelper.cs" />
+    <Compile Include="Util\Riff\Chunk.cs" />
+    <Compile Include="Util\Riff\CueChunk.cs" />
+    <Compile Include="Util\Riff\DataChunk.cs" />
+    <Compile Include="Util\Riff\FactChunk.cs" />
+    <Compile Include="Util\Riff\FormatChunk.cs" />
+    <Compile Include="Util\Riff\InstrumentChunk.cs" />
+    <Compile Include="Util\Riff\LabelChunk.cs" />
+    <Compile Include="Util\Riff\LabeledTextChunk.cs" />
+    <Compile Include="Util\Riff\ListChunk.cs" />
+    <Compile Include="Util\Riff\NoteChunk.cs" />
+    <Compile Include="Util\Riff\PlaylistChunk.cs" />
+    <Compile Include="Util\Riff\RiffTypeChunk.cs" />
+    <Compile Include="Util\Riff\SamplerChunk.cs" />
+    <Compile Include="Util\Riff\UnknownChunk.cs" />
+    <Compile Include="Util\Tables.cs" />
+    <Compile Include="Wave\PcmData.cs" />
+    <Compile Include="Wave\WaveFile.cs" />
+    <Compile Include="Wave\WaveFileReader.cs" />
+    <Compile Include="Wave\WaveFileWriter.cs" />
+    <Compile Include="Wave\WaveHelper.cs" />
+  </ItemGroup>
+  <!-- <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />-->
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+</Project>

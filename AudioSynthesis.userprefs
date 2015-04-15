@@ -3,7 +3,10 @@
   <MonoDevelop.Ide.Workbench>
     <Pads>
       <Pad Id="ProjectPad">
-        <State selected="True" />
+        <State expanded="True">
+          <Node name="AudioSynthesis" selected="True" />
+          <Node name="DirectSoundDemo" expanded="True" />
+        </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
         <State />

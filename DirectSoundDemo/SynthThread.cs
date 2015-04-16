@@ -108,6 +108,7 @@ namespace DirectSoundDemo
                     synth.ResetPrograms();
                     synth_provider.state = SynthWaveProvider.PlayerState.Stopped;
                     synth_provider.Reset();
+					direct_out.Stop();
                 }
             }
         }

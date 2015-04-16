@@ -63,17 +63,21 @@ namespace DirectSoundDemo
 		}
 
 		public void Play(){
-			playThread = new Thread(new ThreadStart(PlaybackThreadFunc));
+			playThread = new Thread (new ThreadStart(PlaybackThreadFunc));
+//			playThread = new Thread (new ParameterizedThreadStart(PlaybackThreadFunc));
+//			playThread = new Thread (() => PlaybackThreadFunc (this));
 			// put this back to highest when we are confident we don't have any bugs in the thread proc
 			playThread.Priority = ThreadPriority.Normal;
 			playThread.IsBackground = true;
-			shouldPlay = false;
-			playThread.Start();
+			shouldPlay = true;
+			playThread.Start (this);
 		}
 
 		public void Stop(){
 			AL.SourceStop (sourceID);
 			shouldPlay = false;
+			Console.WriteLine ("Trying to stop play thread");
+			Console.WriteLine (shouldPlay);
 		}
 
 		public void Dispose(){
@@ -109,6 +113,7 @@ namespace DirectSoundDemo
 					AL.SourceQueueBuffer (sourceID, oldestProcessedBufferID); // enqueues the next buffer
 				}
 				AL.GetSource (sourceID, ALGetSourcei.SourceState, out state); // check the state of the audio source execution
+				Console.WriteLine(shouldPlay);
 			} while ((ALSourceState)state == ALSourceState.Playing && shouldPlay);
 		}
 
